@@ -1,7 +1,3 @@
-# Name:     Ang Qi Shao, Benjamin
-# UOWID:    6857772
-# Assignment 1 Part 2
-
 # Import
 from hashlib import md5
 
