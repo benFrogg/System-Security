@@ -63,11 +63,11 @@ class RainbowTable:
                 each = RainbowTable(pw, hashed, reduced)
                 listOfPassword.append(each)
 
-                '''# Display all password, hash value, reduced value
+                # Display all password, hash value, reduced value
                 print("Number: {:<10} Password: {:<5}".format(counter, pw))
                 print("Hashed value: {:^15}".format(hashed))
                 print("Reduced value: {:^15}".format(reduced))
-                print()'''
+                print()
 
         print("Total number of password: {}".format(len(total)))
         file.close()
@@ -142,14 +142,14 @@ class RainbowTable:
             input = self._generateHash(password)
             counter += 1
         
-        '''if counter != 548:
+        if counter != 548:
             # Q2P4 output the pre-image if can be found
             print()
             print("RESULT -- The pre-image is: {:>10}".format(password))
         else:
             # Q2P4 output the pre-image if cannot be found 
             print()
-            print("RESULT -- The pre-image CANNOT be found")'''
+            print("RESULT -- The pre-image CANNOT be found")
 
 
 if __name__ == '__main__':
